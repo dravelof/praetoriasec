@@ -1,0 +1,395 @@
+/* ============================================================
+   Sé Música — Colors & Type tokens
+   Brand: Sé Música (semusica.com) · E-learning solutions
+   Source: BRANDBOOK_SEMUSICA.pdf
+   ============================================================ */
+
+/* --- Webfont -------------------------------------------------
+   Akzidenz-Grotesk BQ — the brand-prescribed type family.
+   Files live in assets/fonts/. Weights mapped:
+      300 Light · 400 Regular · 500 Medium · 700 Bold · 800 XBold · 900 Super
+   Italic variants attached where available.
+   The "Extended" cut is exposed as a separate family
+   (--font-display-ext) for display-only treatments that need
+   the wider letterforms.
+   ------------------------------------------------------------ */
+@font-face { font-family: "Akzidenz-Grotesk BQ"; font-weight: 300; font-style: normal; src: url("assets/fonts/AkzidenzGroteskBQ-Light.woff2") format("woff2"), url("assets/fonts/AkzidenzGroteskBQ-Light.ttf") format("truetype"); font-display: swap; }
+@font-face { font-family: "Akzidenz-Grotesk BQ"; font-weight: 300; font-style: italic; src: url("assets/fonts/AkzidenzGroteskBQ-LightIt.woff2") format("woff2"), url("assets/fonts/AkzidenzGroteskBQ-LightIt.ttf") format("truetype"); font-display: swap; }
+@font-face { font-family: "Akzidenz-Grotesk BQ"; font-weight: 400; font-style: normal; src: url("assets/fonts/AkzidenzGroteskBQ-Reg.woff2") format("woff2"), url("assets/fonts/AkzidenzGroteskBQ-Reg.ttf") format("truetype"); font-display: swap; }
+@font-face { font-family: "Akzidenz-Grotesk BQ"; font-weight: 400; font-style: italic; src: url("assets/fonts/AkzidenzGroteskBQ-Italic.woff2") format("woff2"), url("assets/fonts/AkzidenzGroteskBQ-Italic.ttf") format("truetype"); font-display: swap; }
+@font-face { font-family: "Akzidenz-Grotesk BQ"; font-weight: 500; font-style: normal; src: url("assets/fonts/AkzidenzGroteskBQ-Medium.woff2") format("woff2"), url("assets/fonts/AkzidenzGroteskBQ-Medium.ttf") format("truetype"); font-display: swap; }
+@font-face { font-family: "Akzidenz-Grotesk BQ"; font-weight: 500; font-style: italic; src: url("assets/fonts/AkzidenzGroteskBQ-MedItalic.woff2") format("woff2"), url("assets/fonts/AkzidenzGroteskBQ-MedItalic.ttf") format("truetype"); font-display: swap; }
+@font-face { font-family: "Akzidenz-Grotesk BQ"; font-weight: 700; font-style: normal; src: url("assets/fonts/AkzidenzGroteskBQ-Bold.woff2") format("woff2"), url("assets/fonts/AkzidenzGroteskBQ-Bold.ttf") format("truetype"); font-display: swap; }
+@font-face { font-family: "Akzidenz-Grotesk BQ"; font-weight: 700; font-style: italic; src: url("assets/fonts/AkzidenzGroteskBQ-BoldItalic.woff2") format("woff2"), url("assets/fonts/AkzidenzGroteskBQ-BoldItalic.ttf") format("truetype"); font-display: swap; }
+@font-face { font-family: "Akzidenz-Grotesk BQ"; font-weight: 800; font-style: normal; src: url("assets/fonts/AkzidenzGroteskBQ-XBold.woff2") format("woff2"), url("assets/fonts/AkzidenzGroteskBQ-XBold.ttf") format("truetype"); font-display: swap; }
+@font-face { font-family: "Akzidenz-Grotesk BQ"; font-weight: 900; font-style: normal; src: url("assets/fonts/AkzidenzGroteskBQ-Super.woff2") format("woff2"), url("assets/fonts/AkzidenzGroteskBQ-Super.ttf") format("truetype"); font-display: swap; }
+
+/* Extended cut — wider letterforms for display-only use */
+@font-face { font-family: "Akzidenz-Grotesk BQ Ext"; font-weight: 300; font-style: normal; src: url("assets/fonts/AkzidenzGroteskBQ-LigExt.woff2") format("woff2"), url("assets/fonts/AkzidenzGroteskBQ-LigExt.ttf") format("truetype"); font-display: swap; }
+@font-face { font-family: "Akzidenz-Grotesk BQ Ext"; font-weight: 400; font-style: normal; src: url("assets/fonts/AkzidenzGroteskBQ-Ext.woff2") format("woff2"), url("assets/fonts/AkzidenzGroteskBQ-Ext.ttf") format("truetype"); font-display: swap; }
+@font-face { font-family: "Akzidenz-Grotesk BQ Ext"; font-weight: 500; font-style: normal; src: url("assets/fonts/AkzidenzGroteskBQ-MedExt.woff2") format("woff2"), url("assets/fonts/AkzidenzGroteskBQ-MedExt.ttf") format("truetype"); font-display: swap; }
+@font-face { font-family: "Akzidenz-Grotesk BQ Ext"; font-weight: 700; font-style: normal; src: url("assets/fonts/AkzidenzGroteskBQ-BoldExt.woff2") format("woff2"), url("assets/fonts/AkzidenzGroteskBQ-BoldExt.ttf") format("truetype"); font-display: swap; }
+
+:root {
+  /* -------- Brand colors (from brand book) -------- */
+  --sm-green:        #00A859;   /* Verde Sé Música — RGB 0/168/89 */
+  --sm-blue:         #3E4095;   /* Azul Sé Música — RGB 62/64/149 */
+
+  /* -------- Tints (derived for surfaces, hovers, gradients) -------- */
+  --sm-green-50:     #E5F6EE;
+  --sm-green-100:    #BFE9D2;
+  --sm-green-200:    #80D3A6;
+  --sm-green-400:    #1FB76C;
+  --sm-green-600:    #008C4A;   /* pressed / focus ring */
+  --sm-green-700:    #006F3B;
+  --sm-green-900:    #003A1F;
+
+  --sm-blue-50:      #ECEDF6;
+  --sm-blue-100:     #C8CAE4;
+  --sm-blue-200:     #9094C7;
+  --sm-blue-400:     #5557A6;
+  --sm-blue-600:     #2F3179;
+  --sm-blue-700:     #25275F;
+  --sm-blue-900:     #11122E;
+
+  /* -------- Neutrals (warm-cool grey, leaning slightly blue) -------- */
+  --sm-ink:          #11122E;   /* primary text — almost-black, blue undertone */
+  --sm-ink-2:        #2A2C46;
+  --sm-ink-3:        #555873;   /* secondary text */
+  --sm-ink-4:        #8A8DA3;   /* tertiary / placeholder */
+  --sm-line:         #E3E4ED;   /* hairline borders */
+  --sm-surface:      #F6F7FB;   /* canvas / app bg */
+  --sm-surface-2:    #ECEEF5;   /* raised neutral surface */
+  --sm-card:         #FFFFFF;
+  --sm-paper:        #FFFFFF;
+
+  /* -------- Semantic foreground/background -------- */
+  --fg-1:            var(--sm-ink);
+  --fg-2:            var(--sm-ink-3);
+  --fg-3:            var(--sm-ink-4);
+  --fg-on-brand:     #FFFFFF;
+  --fg-link:         var(--sm-blue);
+  --fg-link-hover:   var(--sm-blue-600);
+
+  --bg-page:         var(--sm-surface);
+  --bg-card:         var(--sm-card);
+  --bg-muted:        var(--sm-surface-2);
+  --bg-brand-blue:   var(--sm-blue);
+  --bg-brand-green:  var(--sm-green);
+
+  --border:          var(--sm-line);
+  --border-strong:   #C8CCDA;
+
+  /* -------- Status (kept brand-adjacent: green=success, blue=info) -------- */
+  --sm-success:      var(--sm-green);
+  --sm-success-soft: var(--sm-green-50);
+  --sm-info:         var(--sm-blue);
+  --sm-info-soft:    var(--sm-blue-50);
+  --sm-warning:      #E1A100;   /* amber, not in brand book — used sparingly */
+  --sm-warning-soft: #FFF4D6;
+  --sm-danger:       #C2384A;
+  --sm-danger-soft:  #FBE4E7;
+
+  /* -------- Signature gradient (the logo swoosh) -------- */
+  --sm-gradient-arc: linear-gradient(115deg, var(--sm-green) 0%, #1BAA86 45%, var(--sm-blue) 100%);
+  --sm-gradient-deep: linear-gradient(135deg, var(--sm-blue-700) 0%, var(--sm-blue) 60%, var(--sm-green) 130%);
+
+  /* -------- Typography -------- */
+  --font-sans:        "Akzidenz-Grotesk BQ", "Helvetica Neue", Arial, sans-serif;
+  --font-display:     "Akzidenz-Grotesk BQ", "Helvetica Neue", Arial, sans-serif;
+  --font-display-ext: "Akzidenz-Grotesk BQ Ext", "Akzidenz-Grotesk BQ", "Helvetica Neue", Arial, sans-serif;
+  --font-mono:        ui-monospace, "SFMono-Regular", "JetBrains Mono", Menlo, monospace;
+
+  /* Weights — light body per brand book */
+  --w-light:    300;
+  --w-regular:  400;
+  --w-medium:   500;
+  --w-semibold: 600;
+  --w-bold:     700;
+  --w-black:    800;
+
+  /* Type scale — modular, 1.25 ratio, 16px base */
+  --fs-12: 0.75rem;
+  --fs-14: 0.875rem;
+  --fs-16: 1rem;
+  --fs-18: 1.125rem;
+  --fs-20: 1.25rem;
+  --fs-24: 1.5rem;
+  --fs-30: 1.875rem;
+  --fs-36: 2.25rem;
+  --fs-48: 3rem;
+  --fs-60: 3.75rem;
+  --fs-72: 4.5rem;
+
+  /* Tracking — positive on display to mimic the brand's wide/extended logotype */
+  --tr-display:  0.04em;   /* wide */
+  --tr-hero:     0.02em;
+  --tr-eyebrow:  0.18em;   /* SECTION LABEL ALL-CAPS */
+  --tr-button:   0.06em;
+  --tr-body:     0.005em;
+
+  --lh-tight:    1.05;
+  --lh-snug:     1.2;
+  --lh-normal:   1.5;
+  --lh-relaxed:  1.65;
+
+  /* -------- Spacing scale (4-pt baseline) -------- */
+  --sp-1:  4px;
+  --sp-2:  8px;
+  --sp-3:  12px;
+  --sp-4:  16px;
+  --sp-5:  20px;
+  --sp-6:  24px;
+  --sp-8:  32px;
+  --sp-10: 40px;
+  --sp-12: 48px;
+  --sp-16: 64px;
+  --sp-20: 80px;
+  --sp-24: 96px;
+  --sp-32: 128px;
+
+  /* -------- Radii — gentle, generous on big surfaces.
+              Inspired by the logo's swoosh curve.        -------- */
+  --r-1:    4px;    /* inputs, chips */
+  --r-2:    8px;    /* small cards */
+  --r-3:    12px;   /* buttons */
+  --r-4:    16px;   /* cards */
+  --r-5:    24px;   /* hero blocks */
+  --r-pill: 999px;  /* tags, avatars */
+
+  /* -------- Elevation — soft, low-spread, blue-undertoned -------- */
+  --shadow-xs: 0 1px 2px rgba(17, 18, 46, 0.06);
+  --shadow-sm: 0 2px 6px rgba(17, 18, 46, 0.08);
+  --shadow-md: 0 8px 20px rgba(17, 18, 46, 0.10);
+  --shadow-lg: 0 18px 40px rgba(17, 18, 46, 0.14);
+  --shadow-xl: 0 32px 64px rgba(17, 18, 46, 0.18);
+  --shadow-focus: 0 0 0 3px rgba(62, 64, 149, 0.28);
+  --shadow-focus-green: 0 0 0 3px rgba(0, 168, 89, 0.30);
+
+  /* -------- Motion -------- */
+  --ease-out:    cubic-bezier(0.22, 0.61, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --dur-fast:    140ms;
+  --dur-base:    220ms;
+  --dur-slow:    420ms;
+
+  /* -------- Layout -------- */
+  --container:   1200px;
+  --container-narrow: 880px;
+  --gutter:      24px;
+}
+
+/* ============================================================
+   Semantic element styles — wire CSS vars to plain HTML
+   ============================================================ */
+html, body {
+  font-family: var(--font-sans);
+  font-weight: var(--w-light);
+  font-size: var(--fs-16);
+  line-height: var(--lh-normal);
+  color: var(--fg-1);
+  background: var(--bg-page);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: var(--font-display);
+  color: var(--fg-1);
+  margin: 0;
+  text-wrap: balance;
+}
+
+h1, .h1 {
+  font-size: clamp(2.25rem, 4.4vw, var(--fs-72));
+  font-weight: var(--w-bold);
+  line-height: var(--lh-tight);
+  letter-spacing: var(--tr-hero);
+}
+
+h2, .h2 {
+  font-size: clamp(1.75rem, 3vw, var(--fs-48));
+  font-weight: var(--w-bold);
+  line-height: var(--lh-tight);
+  letter-spacing: var(--tr-display);
+}
+
+h3, .h3 {
+  font-size: var(--fs-30);
+  font-weight: var(--w-semibold);
+  line-height: var(--lh-snug);
+  letter-spacing: var(--tr-display);
+}
+
+h4, .h4 {
+  font-size: var(--fs-24);
+  font-weight: var(--w-semibold);
+  line-height: var(--lh-snug);
+}
+
+h5, .h5 {
+  font-size: var(--fs-20);
+  font-weight: var(--w-semibold);
+  line-height: var(--lh-snug);
+}
+
+h6, .h6 {
+  font-size: var(--fs-16);
+  font-weight: var(--w-semibold);
+  line-height: var(--lh-snug);
+}
+
+.eyebrow {
+  font-family: var(--font-display);
+  font-size: var(--fs-12);
+  font-weight: var(--w-bold);
+  letter-spacing: var(--tr-eyebrow);
+  text-transform: uppercase;
+  color: var(--sm-blue);
+}
+
+.display-extended {
+  /* Brand-feel display treatment — extra tracking + all-caps,
+     mimicking the Akzidenz-Grotesk Extended logotype. */
+  font-family: var(--font-display);
+  font-weight: var(--w-bold);
+  text-transform: uppercase;
+  letter-spacing: var(--tr-display);
+}
+
+p, .body {
+  font-size: var(--fs-16);
+  font-weight: var(--w-light);
+  line-height: var(--lh-relaxed);
+  color: var(--fg-1);
+  text-wrap: pretty;
+  margin: 0;
+}
+
+.lede {
+  font-size: var(--fs-20);
+  font-weight: var(--w-light);
+  line-height: var(--lh-relaxed);
+  color: var(--fg-2);
+}
+
+small, .caption {
+  font-size: var(--fs-14);
+  color: var(--fg-2);
+}
+
+a {
+  color: var(--fg-link);
+  text-decoration: none;
+  text-underline-offset: 3px;
+  transition: color var(--dur-fast) var(--ease-out);
+}
+a:not(.btn):hover { color: var(--fg-link-hover); text-decoration: underline; }
+
+code, pre, kbd {
+  font-family: var(--font-mono);
+  font-size: 0.92em;
+}
+code {
+  background: var(--bg-muted);
+  padding: 0.1em 0.4em;
+  border-radius: var(--r-1);
+}
+
+::selection {
+  background: var(--sm-green-100);
+  color: var(--sm-ink);
+}
+
+/* ============================================================
+   Menú desplegable "Nosotros" (nativo <details>, sin JS)
+   Se comparte en todas las páginas del sitio.
+   ============================================================ */
+nav.main details.navdrop { position: relative; display: inline-block; }
+nav.main details.navdrop > summary {
+  list-style: none; cursor: pointer;
+  display: inline-flex; align-items: center; gap: 6px;
+  font-family: var(--font-display); font-size: 14px; font-weight: 500;
+  color: var(--fg-2, #4A4640); padding: 8px 12px; border-radius: 8px;
+  user-select: none;
+}
+nav.main details.navdrop > summary::-webkit-details-marker { display: none; }
+nav.main details.navdrop > summary::after {
+  content: ""; width: 8px; height: 8px; margin-left: 1px; margin-top: -3px;
+  border-right: 1.6px solid currentColor; border-bottom: 1.6px solid currentColor;
+  transform: rotate(45deg); transition: transform .2s ease;
+}
+nav.main details.navdrop > summary:hover { color: var(--pr-ink, #1A1410); }
+nav.main details.navdrop[open] > summary { color: var(--pr-ink, #1A1410); }
+nav.main details.navdrop[open] > summary::after { transform: rotate(-135deg); margin-top: 2px; }
+nav.main details.navdrop .ndmenu {
+  position: absolute; top: 100%; left: 0; margin-top: 8px;
+  background: #fff; border: 1px solid var(--line, #E6E1D6); border-radius: 14px;
+  box-shadow: 0 14px 40px rgba(10, 20, 40, .16);
+  padding: 8px; min-width: 288px; max-width: min(340px, calc(100vw - 32px));
+  display: flex; flex-direction: column; z-index: 80;
+}
+nav.main details.navdrop .ndmenu a {
+  display: flex; flex-direction: column; gap: 3px;
+  padding: 11px 14px; border-radius: 9px; text-decoration: none;
+  font-family: var(--font-display); font-size: 14.5px; font-weight: 600;
+  color: var(--pr-ink, #1A1410); transition: background .12s ease;
+}
+nav.main details.navdrop .ndmenu a span {
+  font-size: 12px; font-weight: 400; color: var(--fg-3, #8A8378); letter-spacing: 0;
+}
+nav.main details.navdrop .ndmenu a:hover { background: var(--pr-ivory, #F7F3EA); }
+nav.main details.navdrop .ndmenu a.nd-divider {
+  border-top: 1px solid var(--line, #E6E1D6); margin-top: 6px; padding-top: 14px;
+}
+@media (max-width: 760px) {
+  nav.main details.navdrop .ndmenu { left: 0; right: auto; min-width: 240px; }
+}
+
+/* ============================================================
+   Cursos desplegables (contenido y alcance) · páginas de track
+   ============================================================ */
+.crsblock { margin-top: 64px; padding-top: 48px; border-top: 1px solid var(--line, #E6E1D6); }
+.crsblock .crsintro { font-size: 16.5px; color: var(--fg-2, #4A4640); max-width: 680px; margin: 8px 0 26px; line-height: 1.6; }
+.crslist { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px; align-items: start; }
+details.crs { border: 1px solid var(--line, #E6E1D6); border-radius: 14px; background: #fff; overflow: hidden; }
+details.crs[open] { box-shadow: 0 10px 30px rgba(10,20,40,.07); grid-column: 1 / -1; }
+details.crs > summary { list-style: none; cursor: pointer; display: flex; align-items: flex-start; gap: 18px; padding: 24px 28px; }
+details.crs > summary::-webkit-details-marker { display: none; }
+.crs-num { font-family: var(--font-display-ext); font-weight: 700; font-size: 20px; color: var(--pr-bronze-deep, #8D6F3D); flex-shrink: 0; line-height: 1.25; min-width: 30px; }
+.crs-h { display: flex; flex-direction: column; gap: 5px; flex: 1; min-width: 0; }
+.crs-t { font-size: 20px; font-weight: 700; color: var(--pr-ink, #1A1410); line-height: 1.22; }
+.crs-s { font-size: 14.5px; font-style: italic; color: var(--pr-bronze-deep, #8D6F3D); }
+.crs-meta { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+.crs-meta span { font-size: 11.5px; font-weight: 600; letter-spacing: .02em; color: var(--fg-2, #4A4640); background: var(--pr-ivory, #F7F3EA); border: 1px solid var(--line, #E6E1D6); border-radius: 999px; padding: 5px 12px; }
+.crs-x { position: relative; width: 22px; height: 22px; flex-shrink: 0; margin-top: 4px; }
+.crs-x::before, .crs-x::after { content: ""; position: absolute; background: var(--pr-navy, #0E1B36); border-radius: 2px; transition: transform .2s ease; }
+.crs-x::before { top: 10px; left: 2px; width: 18px; height: 2px; }
+.crs-x::after { top: 2px; left: 10px; width: 2px; height: 18px; }
+details.crs[open] .crs-x::after { transform: scaleY(0); }
+.crs-body { padding: 0 28px 30px 76px; }
+.crs-lbl { font-size: 11px; letter-spacing: .16em; text-transform: uppercase; color: var(--fg-3, #8A8378); font-weight: 700; margin-bottom: 12px; }
+.crs-sum { font-size: 15.5px; color: var(--fg-2, #4A4640); line-height: 1.65; margin: 4px 0 0; max-width: 820px; }
+.crs-sum strong { color: var(--pr-ink, #1A1410); font-weight: 600; }
+.crs-obj { margin-top: 26px; }
+.crs-obj ul { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10px; }
+.crs-obj li { font-size: 14.5px; color: var(--pr-ink, #1A1410); display: flex; gap: 10px; line-height: 1.5; }
+.crs-obj li::before { content: "✓"; color: var(--pr-bronze-deep, #8D6F3D); font-weight: 700; }
+.crs-syl { margin-top: 28px; }
+.crs-mods { display: flex; flex-direction: column; gap: 1px; background: var(--line, #E6E1D6); border: 1px solid var(--line, #E6E1D6); border-radius: 12px; overflow: hidden; }
+.crs-mod { background: #fff; padding: 18px 22px; }
+.crs-mh { display: flex; align-items: baseline; gap: 12px; }
+.crs-mn { font-family: var(--font-display-ext); font-weight: 700; font-size: 14px; color: var(--pr-bronze-deep, #8D6F3D); flex-shrink: 0; }
+.crs-mt { font-size: 15.5px; font-weight: 700; color: var(--pr-ink, #1A1410); flex: 1; }
+.crs-md { font-size: 12px; color: var(--fg-3, #8A8378); flex-shrink: 0; }
+.crs-mod ul { list-style: none; padding: 0; margin: 10px 0 0 26px; }
+.crs-mod li { font-size: 13.5px; color: var(--fg-2, #4A4640); line-height: 1.55; padding-left: 16px; position: relative; margin-top: 5px; }
+.crs-mod li::before { content: "·"; position: absolute; left: 2px; color: var(--pr-bronze-deep, #8D6F3D); font-weight: 700; }
+@media (max-width: 640px) {
+  details.crs > summary { padding: 20px; gap: 12px; }
+  .crs-body { padding: 0 20px 24px; }
+  .crs-num { min-width: 24px; font-size: 17px; }
+  .crs-t { font-size: 18px; }
+}

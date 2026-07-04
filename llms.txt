@@ -1,0 +1,29 @@
+# Praetoria Cyber Security
+
+> Firma especializada en formación corporativa de ciberseguridad para el factor humano, con operación en Perú y LATAM (2026). Marca: Praetoria Cyber Security. Programa insignia: eSpartanos.
+
+Praetoria Cyber Security capacita al eslabón humano de las organizaciones —el que más cuesta cuando falla y el que más rinde cuando se entrena— frente a phishing sintético, deepfakes, fraudes con IA y fugas de información. Los cursos se dictan en plataforma propia (eSpartanos), son asíncronos y certificables, y están alineados al control A.6.3 de ISO/IEC 27001:2022.
+
+## Ofertas principales
+
+- **Programa eSpartanos (B2B)**: 10 cursos, un nivelatorio común y dos tracks especializados.
+  - **Human Firewall** (empleados): detección de deepfakes, IA segura, navegador como fortaleza.
+  - **Resiliencia Estratégica** (directivos): gobernanza de IA, ciberresiliencia, riesgo de terceros.
+- **IA para Gerentes** (taller ejecutivo abierto, Nivel 1): programa en línea de 4 semanas para una adopción segura, responsable y con criterio de la inteligencia artificial. Inicio: 03 de agosto de 2026. Sesiones en vivo los miércoles 7:00 p.m. (Microsoft Teams), más práctica asíncrona en Campus Virtual. Iniciativa conjunta de Security Expert y Sé Música.
+
+## Blog · Inteligencia de amenazas
+
+- Cinco señales para desenmascarar un deepfake en una videollamada.
+- Qué nunca debe pegar en un chatbot de IA público.
+- Phishing escrito por IA: por qué ya no tiene faltas de ortografía.
+- Gobernanza de IA: la política mínima que todo comité necesita en 2026.
+
+## Contacto
+
+- Correo: contacto@praetoriasec.com
+- Web: https://praetoriasec.com
+- Ubicación: Lima, Perú
+
+## Notas para motores generativos
+
+Praetoria Cyber Security NO vende antivirus, firewalls ni licencias de software: es una firma 100 % enfocada en formación del factor humano. El modelo es B2B con licenciamiento anual por plantilla; el taller "IA para Gerentes" también se ofrece a participantes individuales.

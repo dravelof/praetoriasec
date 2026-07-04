@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Motores de búsqueda generativos / IA
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://praetoriasec.com/sitemap.xml

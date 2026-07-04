@@ -1,0 +1,41 @@
+[build]
+  publish = "."
+
+# Canonicaliza el dominio: el subdominio de Netlify y www redirigen al dominio propio.
+[[redirects]]
+  from = "https://praetoriasec.netlify.app/*"
+  to = "https://praetoriasec.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.praetoriasec.com/*"
+  to = "https://praetoriasec.com/:splat"
+  status = 301
+  force = true
+
+# Rutas limpias: Netlify sirve /ruta/ desde /ruta/index.html (Pretty URLs).
+# Los enlaces internos ya usan URLs limpias (sin index.html), sin saltos 301.
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=()"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Cross-Origin-Opener-Policy = "same-origin"
+    X-DNS-Prefetch-Control = "off"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    # Nombres de archivo sin hash: caché moderada para que un reemplazo con el
+    # mismo nombre se refresque en ~1 semana en vez de quedar cacheado 1 año.
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
