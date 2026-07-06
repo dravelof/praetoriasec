@@ -51,7 +51,7 @@
     css.textContent =
       '#pr-consent{position:fixed;left:16px;right:16px;bottom:16px;z-index:9999;background:#0E1B36;color:rgba(255,255,255,.92);border:1px solid rgba(184,146,83,.4);border-radius:14px;box-shadow:0 12px 40px rgba(5,11,26,.5);font-family:"Akzidenz-Grotesk BQ","Helvetica Neue",Arial,sans-serif;font-weight:300}' +
       '#pr-consent .pr-consent-in{max-width:1080px;margin:0 auto;padding:18px 22px;display:flex;gap:22px;align-items:center;justify-content:space-between;flex-wrap:wrap}' +
-      '#pr-consent .pr-consent-txt{margin:0;font-size:13.5px;line-height:1.55;flex:1;min-width:260px}' +
+      '#pr-consent .pr-consent-txt{margin:0;font-size:13.5px;line-height:1.55;flex:1;min-width:260px;color:rgba(255,255,255,.92);text-align:left}' +
       '#pr-consent a{color:#B89253}' +
       '#pr-consent .pr-consent-btns{display:flex;gap:10px;flex-wrap:wrap}' +
       '#pr-consent .pr-consent-btn{cursor:pointer;font-family:inherit;font-weight:500;font-size:13px;letter-spacing:.04em;padding:9px 18px;border-radius:10px;border:1px solid transparent;transition:all .15s ease}' +
