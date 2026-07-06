@@ -13,22 +13,22 @@
    (--font-display-ext) for display-only treatments that need
    the wider letterforms.
    ------------------------------------------------------------ */
-@font-face { font-family: "Akzidenz-Grotesk BQ"; font-weight: 300; font-style: normal; src: url("assets/fonts/AkzidenzGroteskBQ-Light.woff2") format("woff2"), url("assets/fonts/AkzidenzGroteskBQ-Light.ttf") format("truetype"); font-display: swap; }
-@font-face { font-family: "Akzidenz-Grotesk BQ"; font-weight: 300; font-style: italic; src: url("assets/fonts/AkzidenzGroteskBQ-LightIt.woff2") format("woff2"), url("assets/fonts/AkzidenzGroteskBQ-LightIt.ttf") format("truetype"); font-display: swap; }
-@font-face { font-family: "Akzidenz-Grotesk BQ"; font-weight: 400; font-style: normal; src: url("assets/fonts/AkzidenzGroteskBQ-Reg.woff2") format("woff2"), url("assets/fonts/AkzidenzGroteskBQ-Reg.ttf") format("truetype"); font-display: swap; }
-@font-face { font-family: "Akzidenz-Grotesk BQ"; font-weight: 400; font-style: italic; src: url("assets/fonts/AkzidenzGroteskBQ-Italic.woff2") format("woff2"), url("assets/fonts/AkzidenzGroteskBQ-Italic.ttf") format("truetype"); font-display: swap; }
-@font-face { font-family: "Akzidenz-Grotesk BQ"; font-weight: 500; font-style: normal; src: url("assets/fonts/AkzidenzGroteskBQ-Medium.woff2") format("woff2"), url("assets/fonts/AkzidenzGroteskBQ-Medium.ttf") format("truetype"); font-display: swap; }
-@font-face { font-family: "Akzidenz-Grotesk BQ"; font-weight: 500; font-style: italic; src: url("assets/fonts/AkzidenzGroteskBQ-MedItalic.woff2") format("woff2"), url("assets/fonts/AkzidenzGroteskBQ-MedItalic.ttf") format("truetype"); font-display: swap; }
-@font-face { font-family: "Akzidenz-Grotesk BQ"; font-weight: 700; font-style: normal; src: url("assets/fonts/AkzidenzGroteskBQ-Bold.woff2") format("woff2"), url("assets/fonts/AkzidenzGroteskBQ-Bold.ttf") format("truetype"); font-display: swap; }
-@font-face { font-family: "Akzidenz-Grotesk BQ"; font-weight: 700; font-style: italic; src: url("assets/fonts/AkzidenzGroteskBQ-BoldItalic.woff2") format("woff2"), url("assets/fonts/AkzidenzGroteskBQ-BoldItalic.ttf") format("truetype"); font-display: swap; }
-@font-face { font-family: "Akzidenz-Grotesk BQ"; font-weight: 800; font-style: normal; src: url("assets/fonts/AkzidenzGroteskBQ-XBold.woff2") format("woff2"), url("assets/fonts/AkzidenzGroteskBQ-XBold.ttf") format("truetype"); font-display: swap; }
-@font-face { font-family: "Akzidenz-Grotesk BQ"; font-weight: 900; font-style: normal; src: url("assets/fonts/AkzidenzGroteskBQ-Super.woff2") format("woff2"), url("assets/fonts/AkzidenzGroteskBQ-Super.ttf") format("truetype"); font-display: swap; }
+@font-face { font-family: "Akzidenz-Grotesk BQ"; font-weight: 300; font-style: normal; src: url("assets/fonts/AkzidenzGroteskBQ-Light.woff2") format("woff2"); font-display: swap; }
+@font-face { font-family: "Akzidenz-Grotesk BQ"; font-weight: 300; font-style: italic; src: url("assets/fonts/AkzidenzGroteskBQ-LightIt.woff2") format("woff2"); font-display: swap; }
+@font-face { font-family: "Akzidenz-Grotesk BQ"; font-weight: 400; font-style: normal; src: url("assets/fonts/AkzidenzGroteskBQ-Reg.woff2") format("woff2"); font-display: swap; }
+@font-face { font-family: "Akzidenz-Grotesk BQ"; font-weight: 400; font-style: italic; src: url("assets/fonts/AkzidenzGroteskBQ-Italic.woff2") format("woff2"); font-display: swap; }
+@font-face { font-family: "Akzidenz-Grotesk BQ"; font-weight: 500; font-style: normal; src: url("assets/fonts/AkzidenzGroteskBQ-Medium.woff2") format("woff2"); font-display: swap; }
+@font-face { font-family: "Akzidenz-Grotesk BQ"; font-weight: 500; font-style: italic; src: url("assets/fonts/AkzidenzGroteskBQ-MedItalic.woff2") format("woff2"); font-display: swap; }
+@font-face { font-family: "Akzidenz-Grotesk BQ"; font-weight: 700; font-style: normal; src: url("assets/fonts/AkzidenzGroteskBQ-Bold.woff2") format("woff2"); font-display: swap; }
+@font-face { font-family: "Akzidenz-Grotesk BQ"; font-weight: 700; font-style: italic; src: url("assets/fonts/AkzidenzGroteskBQ-BoldItalic.woff2") format("woff2"); font-display: swap; }
+@font-face { font-family: "Akzidenz-Grotesk BQ"; font-weight: 800; font-style: normal; src: url("assets/fonts/AkzidenzGroteskBQ-XBold.woff2") format("woff2"); font-display: swap; }
+@font-face { font-family: "Akzidenz-Grotesk BQ"; font-weight: 900; font-style: normal; src: url("assets/fonts/AkzidenzGroteskBQ-Super.woff2") format("woff2"); font-display: swap; }
 
 /* Extended cut — wider letterforms for display-only use */
-@font-face { font-family: "Akzidenz-Grotesk BQ Ext"; font-weight: 300; font-style: normal; src: url("assets/fonts/AkzidenzGroteskBQ-LigExt.woff2") format("woff2"), url("assets/fonts/AkzidenzGroteskBQ-LigExt.ttf") format("truetype"); font-display: swap; }
-@font-face { font-family: "Akzidenz-Grotesk BQ Ext"; font-weight: 400; font-style: normal; src: url("assets/fonts/AkzidenzGroteskBQ-Ext.woff2") format("woff2"), url("assets/fonts/AkzidenzGroteskBQ-Ext.ttf") format("truetype"); font-display: swap; }
-@font-face { font-family: "Akzidenz-Grotesk BQ Ext"; font-weight: 500; font-style: normal; src: url("assets/fonts/AkzidenzGroteskBQ-MedExt.woff2") format("woff2"), url("assets/fonts/AkzidenzGroteskBQ-MedExt.ttf") format("truetype"); font-display: swap; }
-@font-face { font-family: "Akzidenz-Grotesk BQ Ext"; font-weight: 700; font-style: normal; src: url("assets/fonts/AkzidenzGroteskBQ-BoldExt.woff2") format("woff2"), url("assets/fonts/AkzidenzGroteskBQ-BoldExt.ttf") format("truetype"); font-display: swap; }
+@font-face { font-family: "Akzidenz-Grotesk BQ Ext"; font-weight: 300; font-style: normal; src: url("assets/fonts/AkzidenzGroteskBQ-LigExt.woff2") format("woff2"); font-display: swap; }
+@font-face { font-family: "Akzidenz-Grotesk BQ Ext"; font-weight: 400; font-style: normal; src: url("assets/fonts/AkzidenzGroteskBQ-Ext.woff2") format("woff2"); font-display: swap; }
+@font-face { font-family: "Akzidenz-Grotesk BQ Ext"; font-weight: 500; font-style: normal; src: url("assets/fonts/AkzidenzGroteskBQ-MedExt.woff2") format("woff2"); font-display: swap; }
+@font-face { font-family: "Akzidenz-Grotesk BQ Ext"; font-weight: 700; font-style: normal; src: url("assets/fonts/AkzidenzGroteskBQ-BoldExt.woff2") format("woff2"); font-display: swap; }
 
 :root {
   /* -------- Brand colors (from brand book) -------- */
