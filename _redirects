@@ -8,14 +8,13 @@
 /blog/phishing-escrito-por-ia-como-detectarlo/index.html  /blog/phishing-escrito-por-ia-como-detectarlo/  301!
 /blog/gobernanza-ia-politica-uso-aceptable-2026/index.html  /blog/gobernanza-ia-politica-uso-aceptable-2026/  301!
 /formacion/ia-gerentes/index.html                  /formacion/ia-gerentes/                           301!
+/programa/index.html                               /programa/                                        301!
 /programa/ciberseguridad-101/index.html            /programa/ciberseguridad-101/                     301!
 /programa/human-firewall/index.html                /programa/human-firewall/                         301!
 /programa/resiliencia-estrategica/index.html       /programa/resiliencia-estrategica/                301!
 /programa/profundizacion-2026/index.html           /programa/profundizacion-2026/                    301!
-/servicio/programa-espartanos/index.html           /servicio/programa-espartanos/                    301!
-/servicio/plataforma-espartanos/index.html         /servicio/plataforma-espartanos/                  301!
-/servicio/panel-reportes/index.html                /servicio/panel-reportes/                         301!
-/servicio/refresco-soporte/index.html              /servicio/refresco-soporte/                       301!
+# Catálogo eSpartanos retirado: todo /servicio/* redirige al hub de programas.
+/servicio/*                                        /programa/                                        301!
 
 /politica-de-privacidad/index.html                 /politica-de-privacidad/                          301!
 /politica-de-cookies/index.html                    /politica-de-cookies/                             301!
